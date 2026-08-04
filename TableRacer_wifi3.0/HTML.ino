@@ -205,9 +205,6 @@ input[type=range] {
   <div class="top-controls">
 	<div class="aux-buttons">
 		<button class="auxButton" id="toggleControlMode" onclick="toggleControlMode()">Toggle UI</button>
-		<button class="auxButton"
-          ontouchstart='sendButtonInput("coupling", "")'
-          onmousedown='sendButtonInput("coupling", "")'>COUPLE</button>
 	</div>
   </div>
 </body>
